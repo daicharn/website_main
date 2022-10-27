@@ -1,0 +1,91 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラノギ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+    background-image: url(../images/contact-bg.jpg);
+    background-repeat:no-repeat;
+    /*
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    */
+    margin: 0px;
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*CONTACT
+--------------------------- */
+.page-title{
+    font-size: 40px;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#contact{
+    padding-left: 150px;
+}
+form div{
+    margin-bottom: 15px;
+}
+.page-title,
+.info-message,
+label{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 3px 3px rgb(226, 226, 226);
+}
+label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="mail"],
+textarea{
+    background: rgba(200, 200, 200, 0.5);
+    border: 1px rgb(200, 200, 200) solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="mail"]{
+    width: 240px;
+}
+textarea{
+    width: 480px;
+    height: 6rem;
+    resize: none;
+}
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(67, 157, 247);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ddd;
+}
+
+/*モバイル版
+------------------------------------*/
+@media screen and (max-width: 600px){
+    body{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        padding-left: 50px;
+    }
+    textarea{
+        width: 240px;
+    }
+}

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラノギ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+    background-image: url(../images/contact-bg.jpg);
+    background-repeat:no-repeat;
+    /*
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    */
+    margin: 0px;
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*INDEX
+--------------------------- */
+.menu-index{
+    text-align: center;
+    color: rgb(230, 230, 230);
+    text-shadow: 0 3px 3px rgb(0, 0, 0);
+}
+.menu-index p{
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+.page-title{
+    font-size: 40px;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.profile{
+    margin-top: 730px;
+}
+.contents-title{
+    margin-left: 100px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 15px solid rgb(50, 139, 255);
+    text-shadow: 0 1px 1px rgb(87, 87, 87);
+}
+.profile-list{
+    margin-left: 150px;
+}
+.profile-caption{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 3px 3px rgb(218, 218, 218);
+    font-weight: bold;
+    font-size: 25px;
+}
+.profile-text{
+    font-size: 25px;
+}
+.profile-image{
+    width: 500px;
+}
+.profile-block{
+    display: flex;
+}
+
+/*モバイル版
+------------------------------------*/
+@media screen and (max-width: 600px){
+    body{
+        background-size: contain;
+    }
+    .profile{
+        margin-top: 200px;
+    }
+    .contents-title{
+        margin-left: 30px;
+    }
+    .profile-list{
+        margin-left: 60px;
+    }
+}

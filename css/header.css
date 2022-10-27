@@ -1,0 +1,56 @@
+.logo{
+    width: 350px;
+    margin: 0;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 80px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 30px;
+}
+.main-nav li a{
+    color: rgb(90, 90, 90);
+}
+.main-nav li a:hover{
+    color: #0bd;
+}
+.page-header{
+    display:flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1100%;
+    margin: 0;
+    padding: 0 4%;
+}
+
+/*モバイル版
+------------------------------------*/
+@media screen and (max-width: 600px){
+    .logo{
+        width: 300px;
+    }
+    .main-nav{
+        font-size: 1rem;
+        margin-top: 0px;
+        padding-right: 30px;
+    }
+    .main-nav li{
+        margin: 0 10px;
+    }
+    .main-nav li a{
+        color: rgb(253, 253, 253);
+        text-shadow: 0 3px 3px rgb(0, 0, 0);
+    }
+    .main-nav li a:hover{
+        color: #0bd;
+    }
+    .page-header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
