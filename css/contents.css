@@ -6,8 +6,6 @@ body{
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラノギ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
     color: #432;
-    background-image: url(../images/contact-bg.jpg);
-    background-repeat:no-repeat;
     /*
     background-size: cover;
     min-height: 100vh;
@@ -27,8 +25,8 @@ img{
 --------------------------- */
 .menu-contents{
     text-align: center;
-    color: rgb(230, 230, 230);
-    text-shadow: 0 3px 3px rgb(0, 0, 0);
+    color: rgb(32, 32, 32);
+    text-shadow: 0 3px 3px rgb(94, 94, 94);
 }
 .menu-contents p{
     font-size: 1.125rem;
@@ -136,10 +134,6 @@ img{
 /*モバイル版
 ------------------------------------*/
 @media screen and (max-width: 600px){
-    body{
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
     .item-description{
         margin-left: 10px;
     }

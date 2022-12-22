@@ -6,8 +6,6 @@ body{
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラノギ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
     color: #432;
-    background-image: url(../images/contact-bg.jpg);
-    background-repeat:no-repeat;
     /*
     background-size: cover;
     min-height: 100vh;
@@ -27,8 +25,8 @@ img{
 --------------------------- */
 .menu-index{
     text-align: center;
-    color: rgb(230, 230, 230);
-    text-shadow: 0 3px 3px rgb(0, 0, 0);
+    color: rgb(32, 32, 32);
+    text-shadow: 0 3px 3px rgb(94, 94, 94);
 }
 .menu-index p{
     font-size: 1.125rem;
@@ -39,9 +37,6 @@ img{
     font-family: 'Philosopher', serif;
     text-transform: uppercase;
     font-weight: normal;
-}
-.profile{
-    margin-top: 730px;
 }
 .contents-title{
     margin-left: 100px;
@@ -69,12 +64,21 @@ img{
     display: flex;
 }
 
+.texttyping span{
+    display: none;
+}
+.texttyping::after{
+    content: "|";
+    animation: typinganime .8s ease infinite;
+}
+@keyframes typinganime{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
 /*モバイル版
 ------------------------------------*/
 @media screen and (max-width: 600px){
-    body{
-        background-size: contain;
-    }
     .profile{
         margin-top: 200px;
     }

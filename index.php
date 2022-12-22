@@ -11,13 +11,12 @@
  <body>
   <?php include "header.html" ?>
   <div class="menu-index wrapper">
+   <img src="images/contact-bg.jpg">
    <h2 class="page-title">Welcome!</h2>
    <p>
        ようこそ！ここはdaichanのポートフォリオサイトです。これまでに制作した成果物や自己紹介などを掲載しております。
    </p>
-   <p class="">
-       下にスクロールすると自己紹介が表示されます。
-   </p>
+   <p class="">以下、自己紹介になります</p>
   </div>
   <div class="contents-title profile">
    <h1>自己紹介</h1>
@@ -25,15 +24,15 @@
   <div class="profile-block">
    <div class="profile-list">
      <p class="profile-caption">名前</p>
-     <p class="profile-text">daichan</p>
+     <p class="profile-text texttyping">daichan</p>
      <p class="profile-caption">年齢</p>
-     <p class="profile-text">22歳</p>
+     <p class="profile-text texttyping">23歳</p>
      <p class="profile-caption">出身地</p>
      <p class="profile-text">鳥取県</p>
      <p class="profile-caption">趣味</p>
-     <p class="profile-text">音楽鑑賞、釣り、プログラミング</p>
+     <p class="profile-text">食べること、料理、釣り、プログラミング</p>
      <p class="profile-caption">好きな食べ物</p>
-     <p class="profile-text">貝類、寿司など</p>
+     <p class="profile-text">刺身全般、わさび</p>
     </div>
     <div class="profile-image">
      <img src="images/profile-001.png">
@@ -41,7 +40,6 @@
     </div>
    </div>
    <div class="contents-title">
-   <h1>経歴</h1>
   </div>
   <?php include "footer.html" ?>
  </body>

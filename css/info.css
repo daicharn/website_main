@@ -6,8 +6,6 @@ body{
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラノギ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
     color: #432;
-    background-image: url(../images/contact-bg.jpg);
-    background-repeat:no-repeat;
     /*
     background-size: cover;
     min-height: 100vh;
