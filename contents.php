@@ -43,6 +43,26 @@
    </div>
    <div class="item">
     <div class="item-title">
+     <img class="item-image" src="images/contents/contents-006.jpg">
+     <h2 class="item-caption">ポーカーゲーム</h2>
+    </div>
+    <div class="item-description">
+     <p class="item-caption">使用言語等</p>
+     <p>HTML、CSS、JavaScript</p>
+     <p class="item-caption">製作時間</p>
+     <p>約1週間</p>
+     <p class="item-caption">製作者コメント</p>
+     <p>一般的なポーカーゲームを作成しました</p>
+     <p>トランプが降ってきたり役が揃うと輝いたりといったアニメーションを加えることも行いました。</p>
+     <p>現在は完全ランダムに山札を生成しているので将来的には役の出現率の調整なども行えるようにしてみたいです。</p>
+    </div>
+    <div class="item-link">
+    <button type=“button” onclick="location.href='https://github.com/daicharn/CasinoGame'">GitHub</button>
+    <button type=“button” onclick="location.href='product/casino_game/poker/poker.html'">リンク</button>
+    </div>
+   </div>
+   <div class="item">
+    <div class="item-title">
      <img class="item-image" src="images/contents/contents-004.jpg">
      <h2 class="item-caption">麻雀計算ツール</h2>
     </div>
